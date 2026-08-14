@@ -1,3 +1,5 @@
+
+
 # Smart Updater
 
 Intelligent update management for [OpenClaw](https://openclaw.ai) skills, extensions, and core.
@@ -15,7 +17,7 @@ Inventory (43 assets) → Scan (3 sources) → Changelogs → Risk Assessment �
 ## Features
 
 - **Full Asset Inventory** — Discovers all installed assets across 4 source types: npm packages, ClawHub skills, GitHub-cloned skills, and local/manual installs
-- **Three-Source Scanning** — Checks npm registry, ClawHub marketplace, and GitHub remotes for available updates
+- **Four-Source Scanning** — Checks npm registry, ClawHub marketplace, GitHub remotes, and SkillHub (Tencent Cloud mirror) for available updates
 - **Changelog Fetching** — Automatically pulls changelogs via `clawhub inspect` and npm, so the AI can assess breaking changes
 - **Risk Assessment** — AI reads changelogs and classifies updates as patch/minor/major with risk analysis
 - **Three Gates Safe Upgrade**:
